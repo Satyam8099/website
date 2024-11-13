@@ -59,19 +59,10 @@
             animation: move 0.3s linear;
         }
         .sticker {
-            position: absolute;
-            width: 80px;
+            position: relative;
+            width: 150px;
             height: auto;
-            transform: rotate(-15deg);
-            z-index: 1;
-        }
-        .sticker-left {
-            left: -50px;
-            top: -40px;
-        }
-        .sticker-right {
-            right: -50px;
-            bottom: -40px;
+            margin: 15px auto;
         }
         .surprise {
             display: none;
@@ -99,51 +90,47 @@
 
     <!-- Question 1 -->
     <div class="question" id="question1">
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025043.webp" alt="Dudu" class="sticker sticker-left">
+        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025043.webp" alt="Dudu" class="sticker">
         <p>Do you like surprises?</p>
         <button class="yes" onclick="nextQuestion()">Yes</button>
         <button class="no" onclick="convince('I promise I’ll make every day a surprise for you! ❤️')">No</button>
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025044.webp" alt="Bubu" class="sticker sticker-right">
     </div>
     
     <!-- Question 2 -->
     <div class="question" id="question2">
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025046.webp" alt="Bubu" class="sticker sticker-left">
+        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025046.webp" alt="Bubu" class="sticker">
         <p>Do you think love lasts forever?</p>
         <button class="yes" onclick="nextQuestion()">Yes</button>
         <button class="no" onclick="convince('Our love is eternal, just like the stars in the sky. 🌟')">No</button>
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025045.webp" alt="Dudu" class="sticker sticker-right">
     </div>
 
     <!-- Question 3 -->
     <div class="question" id="question3">
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025047.webp" alt="Dudu" class="sticker sticker-left">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.P7ekXPxiGXbniqDDlg0LwwHaHa&pid=Api" alt="Dudu hugging Bubu" class="sticker">
         <p>Am I your favorite person in the world?</p>
         <button class="yes" onclick="nextQuestion()">Yes</button>
         <button class="no" onclick="convince('You are my favorite person, and I’ll do everything to make you smile. 🥰')">No</button>
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025048.webp" alt="Bubu" class="sticker sticker-right">
     </div>
 
     <!-- Question 4 -->
     <div class="question" id="question4">
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025043.webp" alt="Dudu" class="sticker sticker-left">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.ApEwtdgo74vF5-e47BC5YwHaQB&pid=Api" alt="Bubu and Dudu cuddling" class="sticker">
         <p>Will you be my forever?</p>
         <button class="yes" onclick="showSurprise()">Yes</button>
         <button class="no" id="no-button">No</button>
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025044.webp" alt="Bubu" class="sticker sticker-right">
     </div>
 
     <!-- Convince Box -->
     <div class="convince" id="convince-box">
         <p id="convince-message"></p>
-        <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/bubu-dudu-1/sticker_7.webp?48079bb1619687ee42961bdbad87c9de&d=200x200p" alt="Convince Dudu Bubu">
-        <button onclick="closeConvince()">Okay</button>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.Oa167K0uydMQW53XwDZeIAHaHa&pid=Api" alt="Convincing Dudu Bubu">
+        <button onclick="closeConvince()">Okay, let’s move on</button>
     </div>
 
     <!-- Surprise Box -->
     <div class="surprise" id="surprise">
         <p>💖 Surprise! I love you so much! 💖</p>
-        <img src="https://stickers.wiki/static/stickers/bubududu1/file_1025047.webp" alt="Surprise Gift">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.yTESXMMfl5khw0MmOv2bHgHaHa&pid=Api" alt="Surprise Gift">
         <p>Your surprise gift: A lifetime of love and happiness together! 🥰</p>
     </div>
 
